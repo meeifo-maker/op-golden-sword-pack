@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/copper_helmet"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.02,
+        1.02,
+        1.02
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1.02,
+        1.02,
+        1.02
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.96,
+        0.96,
+        0.96
+      ]
+    }
+  }
+}
