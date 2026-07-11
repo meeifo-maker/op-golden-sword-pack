@@ -1,6 +1,1430 @@
 {
   "format_version": 2,
   "items": {
+    "minecraft:chainmail_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:chainmail_boots",
+        "bedrock_identifier": "opking:chainmail_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:chainmail_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:chainmail_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:chainmail_chestplate",
+        "bedrock_identifier": "opking:chainmail_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:chainmail_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:chainmail_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:chainmail_helmet",
+        "bedrock_identifier": "opking:chainmail_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:chainmail_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:chainmail_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:chainmail_leggings",
+        "bedrock_identifier": "opking:chainmail_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:chainmail_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_axe",
+        "bedrock_identifier": "opking:copper_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_boots",
+        "bedrock_identifier": "opking:copper_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_chestplate",
+        "bedrock_identifier": "opking:copper_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_helmet",
+        "bedrock_identifier": "opking:copper_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_hoe",
+        "bedrock_identifier": "opking:copper_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_leggings",
+        "bedrock_identifier": "opking:copper_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_pickaxe",
+        "bedrock_identifier": "opking:copper_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_shovel",
+        "bedrock_identifier": "opking:copper_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_spear",
+        "bedrock_identifier": "opking:copper_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:copper_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:copper_sword",
+        "bedrock_identifier": "opking:copper_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:copper_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_axe",
+        "bedrock_identifier": "opking:diamond_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_boots",
+        "bedrock_identifier": "opking:diamond_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_chestplate",
+        "bedrock_identifier": "opking:diamond_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_helmet",
+        "bedrock_identifier": "opking:diamond_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_hoe",
+        "bedrock_identifier": "opking:diamond_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_leggings",
+        "bedrock_identifier": "opking:diamond_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_pickaxe",
+        "bedrock_identifier": "opking:diamond_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_shovel",
+        "bedrock_identifier": "opking:diamond_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_spear",
+        "bedrock_identifier": "opking:diamond_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:diamond_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:diamond_sword",
+        "bedrock_identifier": "opking:diamond_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:diamond_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_axe",
+        "bedrock_identifier": "opking:golden_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_boots",
+        "bedrock_identifier": "opking:golden_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_chestplate",
+        "bedrock_identifier": "opking:golden_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_helmet",
+        "bedrock_identifier": "opking:golden_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_hoe",
+        "bedrock_identifier": "opking:golden_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_leggings",
+        "bedrock_identifier": "opking:golden_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_pickaxe",
+        "bedrock_identifier": "opking:golden_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_shovel",
+        "bedrock_identifier": "opking:golden_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_spear",
+        "bedrock_identifier": "opking:golden_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:golden_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:golden_sword",
+        "bedrock_identifier": "opking:golden_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:golden_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_axe",
+        "bedrock_identifier": "opking:iron_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_boots",
+        "bedrock_identifier": "opking:iron_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_chestplate",
+        "bedrock_identifier": "opking:iron_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_helmet",
+        "bedrock_identifier": "opking:iron_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_hoe",
+        "bedrock_identifier": "opking:iron_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_leggings",
+        "bedrock_identifier": "opking:iron_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_pickaxe",
+        "bedrock_identifier": "opking:iron_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_shovel",
+        "bedrock_identifier": "opking:iron_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_spear",
+        "bedrock_identifier": "opking:iron_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:iron_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:iron_sword",
+        "bedrock_identifier": "opking:iron_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:iron_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:leather_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:leather_boots",
+        "bedrock_identifier": "opking:leather_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:leather_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:leather_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:leather_chestplate",
+        "bedrock_identifier": "opking:leather_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:leather_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:leather_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:leather_helmet",
+        "bedrock_identifier": "opking:leather_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:leather_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:leather_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:leather_leggings",
+        "bedrock_identifier": "opking:leather_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:leather_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:mace": [
+      {
+        "type": "definition",
+        "model": "minecraft:mace",
+        "bedrock_identifier": "opking:mace",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:mace",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_axe",
+        "bedrock_identifier": "opking:netherite_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_boots": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_boots",
+        "bedrock_identifier": "opking:netherite_boots",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_boots"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "feet"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_chestplate": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_chestplate",
+        "bedrock_identifier": "opking:netherite_chestplate",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_chestplate"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_helmet": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_helmet",
+        "bedrock_identifier": "opking:netherite_helmet",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_helmet"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "head"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_hoe",
+        "bedrock_identifier": "opking:netherite_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_leggings": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_leggings",
+        "bedrock_identifier": "opking:netherite_leggings",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_leggings"
+        },
+        "components": {
+          "minecraft:equippable": {
+            "slot": "legs"
+          },
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_pickaxe",
+        "bedrock_identifier": "opking:netherite_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_shovel",
+        "bedrock_identifier": "opking:netherite_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_spear",
+        "bedrock_identifier": "opking:netherite_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:netherite_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:netherite_sword",
+        "bedrock_identifier": "opking:netherite_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:netherite_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_axe",
+        "bedrock_identifier": "opking:stone_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_hoe",
+        "bedrock_identifier": "opking:stone_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_pickaxe",
+        "bedrock_identifier": "opking:stone_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_shovel",
+        "bedrock_identifier": "opking:stone_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_spear",
+        "bedrock_identifier": "opking:stone_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:stone_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:stone_sword",
+        "bedrock_identifier": "opking:stone_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:stone_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:trident": [
+      {
+        "type": "definition",
+        "model": "minecraft:trident",
+        "bedrock_identifier": "opking:trident",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:trident",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_axe": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_axe",
+        "bedrock_identifier": "opking:wooden_axe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_axe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_hoe": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_hoe",
+        "bedrock_identifier": "opking:wooden_hoe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_hoe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_pickaxe": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_pickaxe",
+        "bedrock_identifier": "opking:wooden_pickaxe",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_pickaxe",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_shovel": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_shovel",
+        "bedrock_identifier": "opking:wooden_shovel",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_shovel",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_spear": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_spear",
+        "bedrock_identifier": "opking:wooden_spear",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_spear",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:wooden_sword": [
+      {
+        "type": "definition",
+        "model": "minecraft:wooden_sword",
+        "bedrock_identifier": "opking:wooden_sword",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:wooden_sword",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
     "minecraft:bow": [
       {
         "type": "legacy",
@@ -9,6 +1433,42 @@
         "display_name": "Sniper Rifle",
         "bedrock_options": {
           "icon": "opking:sniper_rifle",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      },
+      {
+        "type": "definition",
+        "model": "minecraft:bow",
+        "bedrock_identifier": "opking:bow",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:bow",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:crossbow": [
+      {
+        "type": "definition",
+        "model": "minecraft:crossbow",
+        "bedrock_identifier": "opking:crossbow",
+        "predicate": {
+          "type": "condition",
+          "property": "has_component",
+          "component": "minecraft:max_stack_size"
+        },
+        "bedrock_options": {
+          "icon": "opking:crossbow",
           "display_handheld": true
         },
         "components": {
