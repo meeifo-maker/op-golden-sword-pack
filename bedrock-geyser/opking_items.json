@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:bow": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9001,
+        "bedrock_identifier": "opking:sniper_rifle",
+        "display_name": "Sniper Rifle",
+        "bedrock_options": {
+          "icon": "opking:sniper_rifle",
+          "display_handheld": true
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ]
+  }
+}
