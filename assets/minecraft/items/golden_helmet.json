@@ -1,7 +1,10 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/golden_helmet",
-    "oversized_in_gui": true
+    "model": "minecraft:item/golden_helmet"
+  },
+  "equippable": {
+    "slot": "head",
+    "asset_id": "minecraft:gold"
   }
 }

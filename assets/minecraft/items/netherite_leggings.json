@@ -1,7 +1,10 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/netherite_leggings",
-    "oversized_in_gui": true
+    "model": "minecraft:item/netherite_leggings"
+  },
+  "equippable": {
+    "slot": "legs",
+    "asset_id": "minecraft:netherite"
   }
 }

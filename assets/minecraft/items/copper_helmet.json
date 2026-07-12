@@ -2,5 +2,9 @@
   "model": {
     "type": "minecraft:model",
     "model": "minecraft:item/copper_helmet"
+  },
+  "equippable": {
+    "slot": "head",
+    "asset_id": "minecraft:copper"
   }
 }

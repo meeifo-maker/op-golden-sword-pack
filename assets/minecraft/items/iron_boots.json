@@ -2,5 +2,9 @@
   "model": {
     "type": "minecraft:model",
     "model": "minecraft:item/iron_boots"
+  },
+  "equippable": {
+    "slot": "feet",
+    "asset_id": "minecraft:iron"
   }
 }
