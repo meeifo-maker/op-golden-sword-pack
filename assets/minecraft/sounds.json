@@ -16,5 +16,23 @@
         "pitch": 1
       }
     ]
+  },
+  "opking.handgun.shoot": {
+    "sounds": [
+      {
+        "name": "random/bow_new",
+        "volume": 1,
+        "pitch": 1.35
+      }
+    ]
+  },
+  "opking.handgun.reload": {
+    "sounds": [
+      {
+        "name": "opking/sniper_reload",
+        "volume": 1.25,
+        "pitch": 1.2
+      }
+    ]
   }
 }

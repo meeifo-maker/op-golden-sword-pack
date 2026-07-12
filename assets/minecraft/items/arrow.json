@@ -10,6 +10,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/sniper_round"
         }
+      },
+      {
+        "threshold": 9004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/handgun_round"
+        }
       }
     ],
     "fallback": {
