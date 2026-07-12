@@ -1,0 +1,20 @@
+{
+  "opking.sniper.shoot": {
+    "sounds": [
+      {
+        "name": "opking/sniper_shoot",
+        "volume": 1,
+        "pitch": 1
+      }
+    ]
+  },
+  "opking.sniper.reload": {
+    "sounds": [
+      {
+        "name": "opking/sniper_reload",
+        "volume": 1.75,
+        "pitch": 1
+      }
+    ]
+  }
+}

@@ -7,7 +7,7 @@
         "when": "9001",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/sniper_bow"
+          "model": "minecraft:item/sniper_awp"
         }
       }
     ],
