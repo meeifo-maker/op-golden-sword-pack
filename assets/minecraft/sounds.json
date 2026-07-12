@@ -1,19 +1,109 @@
 {
-  "opking.sniper.shoot": {
+  "entity.arrow.hit_player": {
+    "replace": "true",
     "sounds": [
       {
-        "name": "opking/sniper_shoot",
-        "volume": 1,
+        "name": "random/headshot",
+        "pitch": 2,
+        "volume": 1
+      }
+    ]
+  },
+  "entity.arrow.shoot": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "random/bow_new",
+        "pitch": 1,
+        "volume": 1
+      }
+    ]
+  },
+  "item.crossbow.shoot": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/shoot1",
         "pitch": 1
       }
     ]
   },
-  "opking.sniper.reload": {
+  "item.crossbow.quick_charge_1": {
+    "replace": "true",
+    "category": "player",
     "sounds": [
       {
-        "name": "opking/sniper_reload",
-        "volume": 1.75,
-        "pitch": 1
+        "name": "item/crossbow/quick_reload",
+        "pitch": 1,
+        "volume": 1.75
+      }
+    ]
+  },
+  "item.crossbow.quick_charge_2": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/quick_reload",
+        "pitch": 1,
+        "volume": 1.75
+      }
+    ]
+  },
+  "item.crossbow.quick_charge_3": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/quick_reload",
+        "pitch": 1,
+        "volume": 1.75
+      }
+    ]
+  },
+  "item.crossbow.loading_start": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/reload2",
+        "pitch": 1,
+        "volume": 1.75
+      }
+    ]
+  },
+  "item.crossbow.loading_middle": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/nothing",
+        "pitch": 1,
+        "volume": 1
+      }
+    ]
+  },
+  "item.crossbow.loading_end": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "item/crossbow/nothing",
+        "pitch": 1,
+        "volume": 1
+      }
+    ]
+  },
+  "entity.skeleton.shoot": {
+    "replace": "true",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "random/bow_new",
+        "pitch": 1,
+        "volume": 1.5
       }
     ]
   }
