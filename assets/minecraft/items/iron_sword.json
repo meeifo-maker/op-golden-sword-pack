@@ -1,6 +1,20 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "minecraft:item/iron_sword"
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 9005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/combat_knife"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_sword"
+    }
   }
 }
