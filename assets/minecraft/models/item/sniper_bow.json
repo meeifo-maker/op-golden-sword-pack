@@ -1,8 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/bow",
-    "layer1": "minecraft:item/sniper_bow"
+    "layer0": "minecraft:item/sniper_bow"
   },
   "display": {
     "thirdperson_righthand": {
